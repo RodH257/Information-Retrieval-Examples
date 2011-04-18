@@ -143,7 +143,7 @@
             this.txtCombinedRegex.Name = "txtCombinedRegex";
             this.txtCombinedRegex.Size = new System.Drawing.Size(378, 26);
             this.txtCombinedRegex.TabIndex = 8;
-            this.txtCombinedRegex.Text = "[a-zA-Z]*(/JJ trees?|fish)/NNS?";
+            this.txtCombinedRegex.Text = "[a-zA-Z]+(/JJ trees?|fish)/NNS?";
             // 
             // label6
             // 
@@ -162,7 +162,7 @@
             this.txtTreeRegex.Name = "txtTreeRegex";
             this.txtTreeRegex.Size = new System.Drawing.Size(378, 26);
             this.txtTreeRegex.TabIndex = 10;
-            this.txtTreeRegex.Text = "[a-zA-Z]*/JJ trees?/NNS?";
+            this.txtTreeRegex.Text = "[a-zA-Z]+/JJ trees?/NNS?";
             // 
             // label7
             // 
@@ -181,7 +181,7 @@
             this.txtFishRegex.Name = "txtFishRegex";
             this.txtFishRegex.Size = new System.Drawing.Size(378, 26);
             this.txtFishRegex.TabIndex = 12;
-            this.txtFishRegex.Text = "[a-zA-Z]*fish/NNS";
+            this.txtFishRegex.Text = "[a-zA-Z]+fish/NNS?";
             // 
             // btnRunFish
             // 
